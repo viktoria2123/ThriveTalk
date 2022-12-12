@@ -1,7 +1,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 43px;
+    gap: 43.5px;
 
     &__tilte {
         font-size: 16px;
@@ -24,11 +24,11 @@
         cursor: pointer;
 
         &:focus {
-            border-bottom: 1px solid blue;
+            border-bottom: 1px solid #F9B640;
         }
 
         &:hover {
-            border-bottom: 1px solid green;
+            border-bottom: 1px solid #F9B640;
         }
 
         &::placeholder {
@@ -36,6 +36,15 @@
             font-size: 12px;
             line-height: 20px;
             letter-spacing: 0.1em;
+        }
+    }
+
+    &__btn {
+        background: $color-orange;
+        color: $color-white;
+
+        @media (max-width: $tablet) {
+            margin: 0 auto;
         }
     }
 }
