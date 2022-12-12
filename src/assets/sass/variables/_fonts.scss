@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+$main-fonts: 'Ubuntu', sans-serif;
+
+
+.title {
+    font-family: $main-fonts;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: $color-black;
+
+    @media (max-width: $tablet) {
+        font-size: 33px;
+        line-height: 50px;
+    }
+}

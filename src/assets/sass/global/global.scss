@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $main-fonts;
+    font-weight: 400;
+    background: $color-yellow;
+}
+
+.container {
+    max-width: 1179px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.logo {
+    max-width: 134px;
+    // margin-left: 179px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: $color-orange;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: $color-orange;
+    color: $color-white;
+    transform: scale(1.1, 1.2);
+    transition: transform 1s ease;
+}
+
+.wrapper {
+    // min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hover-link-animation {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+
+    @media (max-width:tablet) {
+        transition: none;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+// Color 
+
+// scss Змінна
+$color-black: #000000;
+$color-white: #ffffff;
+// $color-grey: #F4F4F4;
+// $color-grey-500: #7B7B7B;
+// $color-grey-700: #565656;
+
+// $color-moda-bg: rgba(0, 0, 0, 0.485);
+$color-blue: #22356F;
+$color-light-blue: #0052C1;
+$color-yellow: #F4F9E2;
+$color-aqua: #62D0DF;
+$color-orange: #F9B640;
+$color-pink: #FFE2DE;
+$color-salat: #C4E769;
+$color-lavanda:#DEE1FF;
+$color-purple:#8F00FF;
+
+
+
+// css Змінна
+:root {
+    --color-black: #000000;
+    --color-grey: #F4F4F4;
+    // var(--color-grey)
+}
